@@ -26,7 +26,7 @@
                               ?>
                         <div class="alert alert-success  animated bounce" id="sams1">
                         <a href="#" class="close" data-dismiss="alert">&times;</a>
-                        <strong> Successfully! </strong><?php echo'Thank you for adding new farmer ';?></div>
+                        <strong> Successfully! </strong><?php echo'Thank you for succesfull registration ';?></div>
                         <?php
                             error_reporting(0);
                             $username = 'samstrover';
@@ -89,16 +89,8 @@
                         <form action="register.php" method="post">
                             <div class="row">
                                 <div class="col-md-6 form-group">
-                                    <label>Name</label>
+                                    <label>Full Name:</label>
                                     <input type="text" name="name" class="form-control" pattern="[a-zA-Z ]{3,20}" maxlength="20" required>
-                                </div>
-                                <div class="col-md-6 form-group">
-                                    <label>Username</label>
-                                    <input type="text" name="username" class="form-control" pattern="[a-zA-Z ]{3,20}" maxlength="20"  required>
-                                </div>
-                                <div class="col-md-6 form-group">
-                                    <label>Password</label>
-                                    <input type="password" name="password" class="form-control" maxlength="20" placeholder="" required>
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label>Phone</label>
@@ -113,10 +105,20 @@
                                         <option>Lower Rift-Valley</option>
                                         <option>Central</option>
                                         <option>Coast</option>
-                                        <option>Western</option>---------------
+                                        <option>Western</option>--------------
                                         <option>North Eastern</option>
                                     </select>
+                                </div>-
+                                <div class="col-md-6 form-group">
+                                    <label>Username</label>
+                                    <input type="text" name="username" class="form-control" pattern="[a-zA-Z ]{3,20}" maxlength="20"  required>
                                 </div>
+                                <div class="col-md-6 form-group">
+                                    <label>Password</label>
+                                    <input type="password" name="password" class="form-control" maxlength="20" placeholder="" required>
+                                </div>
+                              
+                               
                             </div>
                             <div class="row">
                                 <div class="col-md-6 form-group">
